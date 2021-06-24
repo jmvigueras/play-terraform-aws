@@ -12,6 +12,11 @@ Los ficheros necesarios:
     main.tf
     outputs.tf
 
+(Lo único a tener en cuenta, deben estar desplegados previamente una imagen AMI que se usará como plantilla y unas credenciales ssh para configurar en las instancias EC2)
+
+    ami -> ami-0b2a43be9744bcf11
+    key-name -> ingress-test-terraform-eu-west-2
+
 En el PC desde donde se lanzan los despliegues:
 
 Configuración de acceso a los recursos de AWS: 
