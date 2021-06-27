@@ -11,6 +11,8 @@ Los ficheros necesarios:
 
     main.tf
     outputs.tf
+    
+    git clone https://github.com/jmvigueras/play-terraform-aws
 
 (Lo único a tener en cuenta, deben estar desplegados previamente una imagen AMI que se usará como plantilla y unas credenciales ssh para configurar en las instancias EC2)
 
